@@ -5,6 +5,9 @@
       position: relative;
       margin-top: 10px;
 }
+body{
+    overflow-x: hidden;
+}
 .fa-bars{
     font-size: 25px;
     margin: 10px 40px;
@@ -98,6 +101,7 @@ a{
     height: 300px;
     width: 100px;
     /* background-color: aqua; */
+    margin-left: 20px;
 }
 .main_contents{
     display: flex;
@@ -130,12 +134,45 @@ a{
 .tag1{
     display: flex;
        overflow-x:auto;
-    scrollbar-width: none;
+    /* scrollbar-width: none; */
     white-space: nowrap;
 }
 h2{
     font-size: 1rem;
 }
+.box{
+    height: auto;
+    width: 90%;
+    /* margin: auto; */
+    display: flex;
+    overflow-x: auto;
+    /* border: 1px solid black; */
+    scrollbar-width: none;
+    white-space: nowrap;
+
+
+}
+.box a{
+    width:fit-content;
+    text-decoration: none;
+    padding: 5px 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(185, 184, 184);
+    margin-bottom: 20px;
+    
+}
+.new{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
 .all{
     height: 15px;
     width: 30px;
@@ -152,7 +189,7 @@ h2{
    border-radius: 10px;
 
 }
-.all1{
+/* .all1{
     height: 15px;
     width: 60px;
     background-color: rgb(238, 237, 237);
@@ -224,7 +261,7 @@ h2{
     width: 130px;
     background-color:  rgb(238, 237, 237);
     padding: 10px;
-}
+} */
 .vedio_content{
     height: auto;
     width: 100vw;
@@ -237,6 +274,7 @@ h2{
     width: 380px;
     /* background-color: blueviolet; */
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 .img1{
    height: 200px;
@@ -255,6 +293,7 @@ h2{
 .opacity{
     opacity: 0.5;
     margin-left: 40px;
+    /* margin-bottom: 1000px; */
 }
 .shorts{
     height: 450px;
@@ -268,7 +307,7 @@ h2{
     /* background-color: green; */
 }
 .left{
-    margin-left: 730px;
+    margin-left: 500px;
 }
 .reels{
     height: 400px;
@@ -290,6 +329,21 @@ h2{
 }
 .shorts_content{
     width: 200px;
+}
+.vedio_list{
+    /* grid-template-columns: repeat(3,1fr); */
+    display: flex;
+    margin-left: 0px;
+    width: 100vw;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    /* background-color: aqua; */
+}
+.vedio_list1{
+    margin-left: 0px;
+}
+.gap{
+    margin-left: 20px;
 }
 
 @media screen and (min-width:768px) and (max-width:991px){
@@ -744,5 +798,11 @@ h2{
 }
 .shorts_content{
     width: 200px;
+}
+.gap1{
+    padding-left: 20px;
+}
+.gap2{
+    margin-left: 0px;
 }
 }

@@ -182,8 +182,8 @@ select{
   padding-left: 30px;
 }
 .next{
-    height: 80%;
-    width: 90vw;
+    height: 100%;
+    width: 100vw;
   /* background-color: lightblue; */
   margin-top: -530px;
   margin-left: 30px;
@@ -199,6 +199,9 @@ select{
 }
 .help{
     display: flex;
-    margin-left: 70px;
+    margin-left: 40px;
+}
+body{
+    background-color: white;
 }
 }

@@ -13,8 +13,8 @@
     
 }
 .sidebar{
-    height: 600px;
-    width: 150px;
+    /* height: 600px; */
+    /* width: 150px; */
     /* background-color: blue; */
     /* text-align: center; */
     padding-top: 20px;
@@ -260,20 +260,40 @@ video{
 }
 @media screen and (max-width:575px){
     .head2{
-        margin-left: 10px;
+        margin-left: 0px;
+       }
+       .youtube_img{
+        height: 70px;
+        margin-top: -15px;
+        margin-left: -10px;
        }
        .search{
-        width: 200px;
+        width: 50%;
+        height: 40px;
+        padding-top: -10px;
+       }
+       .search_icon{
+        height: 40px;
+       }
+       .menu{
+        font-size: 10px;
+        margin-left: -10px;
        }
        .content{
-        margin-left: 70px;
+        margin-left: 20px;
         width: 300px;
        }
        .head3{
         display: none;
+        margin-left: 10px;
        }
        .sidebar{
         width: 40px;
+        background-color: transparent;
+       }
+       .mic{
+        height: 40px;
+        margin-left: 0px;
        }
        .s1{
         display: none;
@@ -285,6 +305,7 @@ video{
         font-size: 2rem;
         margin-right: 20px;
         margin-top: 25px;
+        height: 50px;
 
        }
        .navbar{

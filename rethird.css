@@ -123,7 +123,7 @@
     margin-left: 20px;
 }
 .play{
-    height: 400px;
+    height: 300px;
     width: 100vw;
     /* background-color: pink; */
 }
@@ -360,14 +360,19 @@ h4{
 }
 @media screen and (max-width:575px){
     .head2{
-        margin-left: 10px;
+        margin-left: 0px;
        }
        .search{
-        width: 200px;
+        width: 150px;
+        height: 40px;
        }
        .content{
         margin-left: 70px;
         width: 300px;
+       }
+       .search_icon{
+        height: 40px;
+        width: 50px;
        }
        .head3{
         display: none;
@@ -481,6 +486,7 @@ h4{
 }
 .new_full{
     flex-direction: column;
+    margin-left: 0px;
 }
 .play{
     height: 300px; 
@@ -508,8 +514,20 @@ h4{
     width: 90vw;
 
 }
+.new_like{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
+.new_comments{
+    margin-top: 20px;
+}
 .new_like1{
     margin-left: 0px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 }
