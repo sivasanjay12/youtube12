@@ -363,8 +363,9 @@ h4{
         margin-left: 0px;
        }
        .search{
-        width: 150px;
+        width: 100px;
         height: 40px;
+        font-size: 20px;
        }
        .content{
         margin-left: 70px;

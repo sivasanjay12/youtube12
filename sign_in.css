@@ -37,7 +37,7 @@ body{
 }
 .mail_img{
     height: 30px;
-    width: 30px;
+    width: 40px;
     border-radius: 50%;
     margin-top: 20px;
 }
@@ -171,6 +171,7 @@ select{
     width: 100vw;
     margin-top: 0px;
     border-radius: 0px;
+    background-color: white;
     display: block;
 }
 .verify{
@@ -182,8 +183,8 @@ select{
   padding-left: 30px;
 }
 .next{
-    height: 100%;
-    width: 100vw;
+    height: 80%;
+    width: 80vw;
   /* background-color: lightblue; */
   margin-top: -530px;
   margin-left: 30px;

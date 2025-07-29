@@ -374,7 +374,7 @@ a{
 }
 .search{
     height: 35px;
-    width: 150px;
+    width: 120px;
     margin-left: -80px;
     font-size: 1.2rem;
      padding-left: 20px;
@@ -413,7 +413,7 @@ a{
     font-size: 1.2rem;
 }
 .vedio_content{
-    width: 400px;
+    width: 300px;
     height: 320px;
 }
 .menu2{
@@ -424,7 +424,7 @@ a{
     height: 120px;
 }
 .sticky{
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .bt_subscribe{
     margin-bottom: 20px;
@@ -440,16 +440,18 @@ a{
 }
 .sticky_notes{
     font-size: 1rem;
+        padding-left: 5px;
     
 }
 .sticky{
     margin-left: -50px;
+    margin-top: 150px;
 }
 .vedio_tags1{
     margin-left: -50px;
 }
     .vedio_divs{
-         margin-left: -60px;
+         margin-left: -80px;
          /* margin: auto; */
         display: grid;
         grid-template-columns: repeat(autofit,(1,1fr));

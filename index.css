@@ -30,7 +30,7 @@ body{
     border: 1px solid rgb(228, 226, 226);
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding-left: 20px;
     /* padding-top: 10px; */
     margin-top: 10px;
@@ -142,7 +142,7 @@ h2{
 }
 .box{
     height: auto;
-    width: 90%;
+    /* width: %; */
     /* margin: auto; */
     display: flex;
     overflow-x: auto;
@@ -665,20 +665,22 @@ h2{
 }
 .youtube_img{
     height: 80%;
-   margin-left: 50px;
+   margin-left: 40px;
 }
 .head2{
     margin-left: 90px;
 }
 .search{
-    height: 35px;
-    width: 40vw;
-    font-size: 1.4rem;
+    height: 30px;
+    width: 20vw;
+    font-size: 1.2rem;
     margin-top: 20px;
+    margin-left: -15px;
+    /* padding-left: -40px; */
 }
 .search_icon{
-    height: 33px;
-    width: 40px;
+    height: 28px;
+    width: 30px;
      margin-top: 20px;
 }
 .mic{
@@ -698,7 +700,7 @@ h2{
     width: 30px;
    margin-top: 23px;
    font-size: 26px;
-   margin-left: 10px;
+   margin-left: 0px;
 }
 .tags{
     overflow: hidden;
@@ -717,6 +719,7 @@ h2{
 }
 .menu{
     margin-top: -8px;
+    overflow-x: hidden;
 }
 .all1{
     height: 1px;
@@ -782,7 +785,7 @@ h2{
 }
 .vedio{
     height: 350px;
-    width: 80vw;
+    width: 85vw;
     margin-top: 10px;
 }
 .left{
